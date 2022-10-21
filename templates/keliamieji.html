@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- DOCTYPE turi buti pirmoje eiluteje nuo pirmo simbolio -->
+<!-- HTML dokumentas Lietuviu kalba -->
+<html lang="lt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Metai</title>
+    </head>
+    <body>
+        <h1>Keliamieji metai</h1>
+        {% for metai in keliamieji %}
+        <p>{{ metai }}</p>
+        {% endfor %}
+    </body>
+</html>
